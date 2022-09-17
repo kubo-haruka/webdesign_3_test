@@ -1,0 +1,166 @@
+header {
+  display: flex;
+  padding: 10px 25px;
+  height: 6vh;
+}
+
+.header-logo img{
+  display: inline-block;
+  width: 70％;
+  height: 70%;
+}
+
+.header-nav {
+  margin-top: 5px;
+}
+
+.header-nav-list {
+  display: flex;
+  font-size: large;
+}
+
+.header-nav-item {
+  margin: 0 10px;
+  
+}
+
+.header-nav-item a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+.firstview {
+  position: relative;
+}
+
+.firstview-img img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 55%;
+}
+
+.firstview-box {
+  position: absolute;
+  width: 60vw;
+  top: 10%;
+  left: 18%;
+}
+
+.firstview-ttl {
+  font-size: 60px;
+  font-family: 'Pangolin', cursive;
+  color: rgb(205, 3, 104);
+  line-height: 80px;
+}
+
+.firstview-ttl-grow {
+  font-family: 'Pangolin', cursive;
+  color: rgb(4, 153, 187);
+}
+
+.firstview-content {
+  margin: 20px 0;
+}
+
+.firstview-content-text {
+  color: rgb(4, 153, 187);
+  font-size: 140%;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.firstview-content-text::before {
+  content: "全ての人の";
+  color: rgb(205, 3, 104);
+}
+
+.firstview-content-text::after {
+  content: "にコミットする";
+  color: rgb(205, 3, 104);
+}
+
+.firstview-content p {
+  color: darkgray;
+  line-height: 25px;
+  padding-top: 5px;
+}
+
+.news {
+  padding: 0 0 0 auto;
+  margin: 5% 20%;
+  border: none;
+}
+
+.ttl {
+  width: 50vw;
+  margin: 10px 0;
+}
+
+.ttl-text {
+  font-family: 'Pangolin', cursive;
+  color: rgb(205, 3, 104);
+}
+
+h3 {
+  color: rgb(86, 86, 86);
+  padding: 10px 0;
+  font-size: large;
+}
+
+.news-content {
+  width: 90vw;
+  top: 10%;
+  left: 18%;
+}
+
+.news-content-line {
+  border-top: 2px solid darkgray;
+  margin: 15px 0;
+}
+
+.news-content-list p {
+  display: inline-block;
+  color: darkgray;
+}
+
+.news-content-list {
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+hr {
+  margin: 15px 0;
+}
+
+.news-content-cat {
+  width: 100vw;
+  margin: 0 10px;
+  padding: 3px 15px;
+  color: #fff;
+  background-color: rgb(205, 3, 104);
+  border-radius: 30px;
+}
+
+.about {
+  margin: 5% 10%;
+  border: none;
+  height: 100vh;
+}
+
+.about-content {
+  position: relative;
+}
+
+.about-content-img img {
+  width: 50%;
+  display: block;
+  margin-right: 0;
+}
+
+.about-content p {
+  width: 40%;
+  color: darkgray;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
