@@ -156,7 +156,7 @@ hr {
 .about-content {
   margin: 2% 10%;
   border: none;
-  height: 90vh;
+  height: 50vh;
   display: flex;
   justify-content: space-between;
 }
@@ -428,6 +428,7 @@ td {
   background-color: rgb(244, 242, 242);
   text-align: center;
   padding: 10px 0;
+  height: 2vh;
 }
 
 .footer-copyright {
